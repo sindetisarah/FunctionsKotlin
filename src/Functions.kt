@@ -1,11 +1,16 @@
 fun main() {
 name()
     module()
+
+    var final =add(3,4,5,6)
+    print(final)
+
     interest()
+
 }
 
 fun name(){
-    var name = ("Sarah")
+    val name = ("Sarah")
     println("Hello ${name}")
 }
 fun module(){
@@ -15,7 +20,14 @@ fun module(){
     println(module)
 
 }
+fun add(a:Int,b:Int,c:Int,d:Int):Int{
+    var sum = a + b + d+ c
+    return sum
+
+}
 fun interest(){
     var fact =("I cant help laughing when i feel like.")
     println(fact)
 }
+
+    
