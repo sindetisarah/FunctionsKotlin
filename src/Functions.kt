@@ -1,9 +1,10 @@
 fun main() {
 name()
-    module()
+    var result =module(20,8)
+    println(result)
 
     var final =add(3,4,5,6)
-    print(final)
+    println(final)
 
     interest()
 
@@ -13,11 +14,10 @@ fun name(){
     val name = ("Sarah")
     println("Hello ${name}")
 }
-fun module(){
-    var a = 20
-    var b = 8
+fun module(a:Int,b:Int):Int{
+
     var module = a % b
-    println(module)
+    return module
 
 }
 fun add(a:Int,b:Int,c:Int,d:Int):Int{
